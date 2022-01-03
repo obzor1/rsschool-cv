@@ -143,8 +143,6 @@ body {
   border-bottom: 4px solid rgb(224, 233, 224);
 }
 
-.list-contacts {
-}
 .item-contacts {
   margin: 0;
   padding: 0;
@@ -173,8 +171,7 @@ body {
   padding: 50px 120px 0 0;
   border-bottom: 4px solid rgb(224, 233, 224);
 }
-.list-skills {
-}
+
 .item-skills {
   margin: 0;
   padding: 0;
