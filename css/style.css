@@ -103,3 +103,157 @@ body {
   font-size: 28px;
   background-color: rgb(15, 233, 233);
 }
+.main {
+  margin-bottom: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+
+  background-color: #353d36;
+}
+
+.main-aside {
+  width: 250px;
+}
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.section-contacts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.title-contacts {
+  font-size: 30px;
+  color: rgb(230, 223, 220);
+  align-self: flex-end;
+  margin: 0;
+  padding: 50px 60px 0 0;
+  border-bottom: 4px solid rgb(224, 233, 224);
+}
+
+.list-contacts {
+}
+.item-contacts {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 600;
+  color: rgb(230, 223, 220);
+}
+.item-contacts a {
+  text-decoration: none;
+  color: rgb(17, 13, 10);
+}
+.section-skills {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.title-skills {
+  font-size: 30px;
+  color: rgb(230, 223, 220);
+  align-self: flex-end;
+  margin: 0;
+  padding: 50px 120px 0 0;
+  border-bottom: 4px solid rgb(224, 233, 224);
+}
+.list-skills {
+}
+.item-skills {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 600;
+  color: rgb(230, 223, 220);
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 750px;
+  background-color: rgb(253, 255, 255);
+
+  border: 0;
+}
+.content-about,
+.content-education,
+.content-projects,
+.content-code,
+.content-english {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 50px;
+}
+.title-about,
+.title-education,
+.title-projects,
+.title-code,
+.title-english {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: stretch;
+  justify-content: flex-end;
+  border-bottom: 4px solid rgb(53, 56, 53);
+  font-size: 30px;
+}
+
+.descr-education {
+  margin: 0 auto;
+  line-height: 10px;
+}
+.list-projects {
+  margin: 0 auto;
+  line-height: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.pre {
+  padding: 0;
+  margin: 0 auto;
+  font-size: 15px;
+  background-color: rgb(81, 95, 95);
+  color: rgb(243, 247, 250);
+}
+
+.item-projects a {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: rgb(33, 199, 185);
+  text-decoration: none;
+}
+
+.list-english {
+  margin: 0 auto;
+  line-height: 10px;
+  padding: 0;
+}
+.item-english {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  list-style: none;
+}
